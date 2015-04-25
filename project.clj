@@ -23,7 +23,7 @@
   :cljsbuild {
     :builds [{:id "dev"
               :source-paths ["src" "dev_src"]
-              :compiler {:output-to "resources/public/js/om_tut.js"
+              :compiler {:output-to "resources/public/js/compiled/made_in_nepal.js"
                          :output-dir "resources/public/js/compiled/out"
                          :optimizations :none
                          :main om-tut.dev
